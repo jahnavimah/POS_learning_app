@@ -1,1 +1,0 @@
-print ("This folder has all pages of the app like home, main etc.")
