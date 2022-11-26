@@ -9,7 +9,7 @@ layout = html.Div([
     html.H1("", style={"color": "Green",'font-size':'44px','font-weight': 'bold',\
         'font-family': "Lucida Console",'text-align': 'center'}),
     html.Div([
-        html.Div(id='gator', style={'width': '30%','height': 500,'background-image': 'url("/assets/gator.gif")',\
+        html.Div(id='gator', style={'width': '30%','height': 500,'background-image': 'url("/assets/birda.jpg")',\
             "float":"left",'display': 'inline-block'}),
         
         dcc.Textarea(id='textarea-state-example1',
@@ -26,7 +26,7 @@ layout = html.Div([
               'font-size':'24px',"border":"None",'display':'inline-block','box-shadow': '10px 10px 5px #aaaaaa',\
                "text-align": "justify",'padding': '20px','font-family': 'Times New Roman, Times, serif',\
                'font-weight': 'bold','display': 'inline-block'}),
-        html.Div(id='hippo', style={'width': '30%','height': 500,'background-image': 'url("/assets/hippo.gif")',\
+        html.Div(id='hippo', style={'width': '30%','height': 500,'background-image': 'url("/assets/birdb.jpg")',\
             "float":"right",'display': 'inline-block'})
         ]),
             ])
