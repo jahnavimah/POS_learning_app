@@ -12,7 +12,7 @@ dash-core-components
 dash-html-components
 dash-table
 spacy
-en-core-web-sm
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.4.3/en_core_web_sm-3.4.3-py3-none-any.whl
 Flask
 Flask-Compress
 gunicorn
