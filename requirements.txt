@@ -11,6 +11,7 @@ dash==2.6.2
 dash-core-components
 dash-html-components
 dash-table
+spacy
 en-core-web-sm
 Flask
 Flask-Compress
@@ -35,7 +36,6 @@ pytz
 requests
 six
 smart-open
-spacy
 spacy-legacy
 spacy-loggers
 srsly
