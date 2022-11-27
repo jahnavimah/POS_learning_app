@@ -91,8 +91,8 @@ def update_output(n_clicks,value, value0):
             rt1=[]
             for c,h in enumerate(xx):
                 txt=[h==n for n in value1]
-                value2=pd.DataFrame(value1,columns={'text'})
-                booleans1=pd.DataFrame(txt,columns={'booleans'})
+                value2=pd.DataFrame(value1,columns=['text'])
+                booleans1=pd.DataFrame(txt,columns=['booleans'])
                 tot=pd.concat([value2,booleans1],axis=1)
 
                 ggh=[]
