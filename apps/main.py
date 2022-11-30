@@ -29,8 +29,8 @@ layout = html.Div([
                 style={"background-color":"Purple","border": "none","color": "Yellow","padding": "5px 15px",\
                        "text-align": "center","font-size": "14px",'font-weight': 'bold',\
                        'font-family': 'Times New Roman, Times, serif','display': 'inline-block'}),
-    html.Div(id='right_area', style={'display': 'inline-block','width': '37%','height': 100,"float":"right",\
-                                     'background-image': 'url("/assets/labelsfin.png")'}),
+    html.Div(id='right_area', style={'display': 'inline-block','width': '28%','height': 100,"float":"right",\
+                                     'background-image': 'url("/assets/labelsformatted.jpg")'}),
             ]),
     html.Br(),
     html.Div(id='textarea-state-example-output', style={'whiteSpace': 'pre-line',"color": "Green"}), 
