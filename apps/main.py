@@ -27,8 +27,8 @@ layout = html.Div([
     html.Button('Submit', id='textarea-state-example-button', n_clicks=0,\
                 style={"background-color":"Purple","border": "none","color": "Yellow","padding": "5px 15px",\
                        "text-align": "center","font-size": "14px",'font-weight': 'bold',\
-                       'font-family': 'Times New Roman, Times, serif','display': 'inline-block'}),
-    html.Div(id='right_area', style={'display': 'inline-block','width': '28%','height': 100,'right': '20px','position': 'Absolute',\
+                       'font-family': 'Arial','display': 'inline-block','left': '20px','position': 'Absolute'}),
+    html.Div(id='right_area', style={'display': 'inline-block','width': '40%','height': 100,'right': '30px','position': 'Absolute',\
                                      'background-image': 'url("/assets/labelsformatted.jpg")'}),
             ]),
     html.Br(),
@@ -48,7 +48,7 @@ layout = html.Div([
                ],
                value='',className="select_box",
                 multi=True,placeholder="Select a POS TAG",
-                style={"background-color":"LightYellow","border": "none"}),
+                style={"background-color":"LightYellow","border": "none",'left': '20px','position': 'Absolute','right': '20px'}),
 
     ]),
    
