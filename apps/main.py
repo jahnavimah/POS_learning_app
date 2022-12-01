@@ -28,7 +28,7 @@ layout = html.Div([
                 style={"background-color":"Purple","border": "none","color": "Yellow","padding": "5px 15px",\
                        "text-align": "center","font-size": "14px",'font-weight': 'bold',\
                        'font-family': 'Arial','display': 'inline-block','left': '20px','position': 'Absolute'}),
-    html.Div(id='right_area', style={'display': 'inline-block','width': '30%','height': 100,'right': '50px','position': 'Absolute',\
+    html.Div(id='right_area', style={'display': 'inline-block','width': '28%','height': 100,'right': '35px','position': 'Absolute',\
                                      'background-image': 'url("/assets/labelsformatted.jpg")'}),
             ]),
     html.Br(),
