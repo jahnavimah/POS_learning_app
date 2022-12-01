@@ -38,6 +38,8 @@ layout = html.Div([
     html.Div(id='textarea-state-example-output', style={'whiteSpace': 'pre-line','color':'Green'}), 
     html.Br(),
     html.Br(),
+    html.Br(),
+    html.Br(),
     dcc.Dropdown(id='my-button',
                options=[
                    {'label':'Noun','value':'NOUN','className':"optionA"},
