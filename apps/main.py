@@ -18,7 +18,7 @@ layout = html.Div([
         value='Enter text here',
         style={'width': '40%','height': 300,'background-color':'LightYellow',"border":"None",'color':'Purple',\
               'font-size':'16px','display': 'inline-block',"line-height": "30px",'font-weight': 'bold',\
-              'font-family': 'Times New Roman, Times, serif'}),
+              'font-family': 'Arial','left': '20px','position': 'Absolute'}),
     html.Div(id='middle_area', style={'display': 'inline-block','width': '15%','height': 100}),
     html.Div(id='area', style={'width': '40%','height': 300,'display': 'inline-block',\
                               "float":"right",'font-size':'18px'}),
@@ -28,7 +28,7 @@ layout = html.Div([
                 style={"background-color":"Purple","border": "none","color": "Yellow","padding": "5px 15px",\
                        "text-align": "center","font-size": "14px",'font-weight': 'bold',\
                        'font-family': 'Arial','display': 'inline-block','left': '20px','position': 'Absolute'}),
-    html.Div(id='right_area', style={'display': 'inline-block','width': '40%','height': 100,'right': '30px','position': 'Absolute',\
+    html.Div(id='right_area', style={'display': 'inline-block','width': '30%','height': 100,'right': '50px','position': 'Absolute',\
                                      'background-image': 'url("/assets/labelsformatted.jpg")'}),
             ]),
     html.Br(),
@@ -48,7 +48,7 @@ layout = html.Div([
                ],
                value='',className="select_box",
                 multi=True,placeholder="Select a POS TAG",
-                style={"background-color":"LightYellow","border": "none",'left': '20px','position': 'Absolute','right': '20px'}),
+                style={"background-color":"LightYellow","border": "none",'left': '20px','position': 'Absolute'}),
 
     ]),
    
