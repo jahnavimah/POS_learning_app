@@ -19,8 +19,7 @@ layout = html.Div([
         style={'width': '40%','height': 300,'background-color':'LightYellow',"border":"None",'color':'Purple',\
               'font-size':'16px','display': 'inline-block',"line-height": "30px",'font-weight': 'bold',\
               'font-family': 'Times New Roman, Times, serif'}),
-    html.Div(id='middle_area', style={'display': 'inline-block','width': '15%','height': 100,\
-                                     'background-image': 'url("/assets/rainbow.gif")'}),
+    html.Div(id='middle_area', style={'display': 'inline-block','width': '15%','height': 100}),
     html.Div(id='area', style={'width': '40%','height': 300,'display': 'inline-block',\
                               "float":"right",'font-size':'18px'}),
              ]),
@@ -58,7 +57,7 @@ layout = html.Div([
           'background-size': '100%',
           'position': 'fixed',
           'width': '100%',
-          'height': '100%'
+          'height': '100%','background-image': 'url("/assets/stars.png")'
           })
 
 
