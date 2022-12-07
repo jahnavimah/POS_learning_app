@@ -49,7 +49,7 @@ layout = html.Div([
                ],
                value='',className="select_box",
                 multi=True,placeholder="Select a POS TAG", 
-                style={"background-color":"LightYellow","border": "none",'font-family': 'Arial','margin-left': '80px'}),
+                style={"background-color":"LightYellow","border": "none",'font-family': 'Arial','margin-left': '20px','margin-right': '50px'}),
 
     ]),
    
