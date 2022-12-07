@@ -27,7 +27,7 @@ layout = html.Div([
                 style={"background-color":"Purple","border": "none","color": "Yellow","padding": "5px 15px",\
                        "text-align": "center","font-size": "16px",'font-weight': 'bold',\
                        'font-family': 'Arial','margin-left': '20px','display': 'inline-block'}),
-    html.Div(id='right_area', style={'height': 100,'width':'28%',
+    html.Div(id='right_area', style={#'height': 100,'width':'28%',
                                      'background-image': 'url("/assets/labelsformatted.jpg")',\
                                     'right': '100px','position': 'Absolute',\
                                      'margin-right':'80px','display': 'inline-block'
@@ -37,9 +37,9 @@ layout = html.Div([
     html.Div(id='textarea-state-example-output', style={'whiteSpace': 'pre-line','color':'Green','font-size':'16px',\
                                                         'margin-left': '20px',\
                                                         "line-height": "30px",'font-weight': 'bold','font-family': 'Arial'}), 
-    #html.Br(),
-
-
+    html.Br(),
+    html.Br(),
+    html.Br(),
     dcc.Dropdown(id='my-button',
                options=[
                    {'label':'Noun','value':'NOUN','className':"optionA"},
