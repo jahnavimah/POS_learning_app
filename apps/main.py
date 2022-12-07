@@ -22,21 +22,23 @@ layout = html.Div([
     html.Div(id='area', style={'width': '45%','height': 300,'display': 'inline-block'}),
              ]),
 
-     
+    html.Div([ 
     html.Button('Submit', id='textarea-state-example-button', n_clicks=0,\
                 style={"background-color":"Purple","border": "none","color": "Yellow","padding": "5px 15px",\
                        "text-align": "center","font-size": "16px",'font-weight': 'bold',\
-                       'font-family': 'Arial','margin-left': '20px'}),
+                       'font-family': 'Arial','margin-left': '20px','display': 'inline-block'}),
+    html.Div(id='right_area', style={'height': 100,'width':'28%',
+                                     'background-image': 'url("/assets/labelsformatted.jpg")',\
+                                    'right': '100px','position': 'Absolute',\
+                                     'margin-right':'80px','display': 'inline-block'
+                                    }),
+        ]),
     html.Br(),
     html.Div(id='textarea-state-example-output', style={'whiteSpace': 'pre-line','color':'Green','font-size':'16px',\
                                                         'margin-left': '20px',\
                                                         "line-height": "30px",'font-weight': 'bold','font-family': 'Arial'}), 
     #html.Br(),
-    html.Div(id='right_area', style={'height': 100,'width':'28%',
-                                     'background-image': 'url("/assets/labelsformatted.jpg")',\
-                                    'right': '100px','position': 'Absolute',
-                                     #'margin-right':'80px'
-                                    }),
+
 
     dcc.Dropdown(id='my-button',
                options=[
