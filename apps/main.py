@@ -34,6 +34,7 @@ layout = html.Div([
                                     }),
         ]),
     html.Br(),
+    html.Br(),
     html.Div(id='textarea-state-example-output', style={'whiteSpace': 'pre-line','color':'Green','font-size':'16px',\
                                                         'margin-left': '20px',\
                                                         "line-height": "30px",'font-weight': 'bold','font-family': 'Arial'}), 
