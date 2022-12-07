@@ -10,7 +10,7 @@ layout = html.Div([
         'font-family': "Arial",'text-align': 'center'}),
     html.Div([
         html.Div(id='gator', style={'width': 900,'height': 661,'background-image': 'url("/assets/homepage3.jpg")',\
-            'border': '8px ridge blue','display': 'block','margin': '0 auto'}),
+            'border': '5px ridge purple','display': 'block','margin': '0 auto'}),
             ]),
 ])
  
