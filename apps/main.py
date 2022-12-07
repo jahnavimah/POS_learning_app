@@ -30,7 +30,7 @@ layout = html.Div([
     html.Div(id='right_area', style={'height': 116,'width':405,
                                      'background-image': 'url("/assets/labelsall.jpg")',\
                                     'right': '100px','position': 'Absolute',\
-                                     'margin-right':'50px','display': 'inline-block'
+                                     'margin-right':'20px','display': 'inline-block'
                                     }),
         ]),
     html.Br(),
