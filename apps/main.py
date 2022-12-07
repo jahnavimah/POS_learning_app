@@ -31,7 +31,7 @@ layout = html.Div([
     html.Div(id='textarea-state-example-output', style={'whiteSpace': 'pre-line','color':'Green','font-size':'16px',\
                                                         'margin-left': '20px',\
                                                         "line-height": "30px",'font-weight': 'bold','font-family': 'Arial'}), 
-    html.Br(),
+    #html.Br(),
     html.Div(id='right_area', style={'height': 100,'width':'28%',
                                      'background-image': 'url("/assets/labelsformatted.jpg")',\
                                     'right': '100px','position': 'Absolute',
@@ -49,7 +49,7 @@ layout = html.Div([
                ],
                value='',className="select_box",
                 multi=True,placeholder="Select a POS TAG", 
-                style={"background-color":"LightYellow","border": "none",'font-family': 'Arial','margin-left': '20px'}),
+                style={"background-color":"LightYellow","border": "none",'font-family': 'Arial','margin-left': '80px'}),
 
     ]),
    
